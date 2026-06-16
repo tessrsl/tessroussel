@@ -2631,3 +2631,24 @@ input, select, textarea {
 				}
 
 	}
+
+#logo .icons {
+    margin-top: 1em;
+}
+
+#logo .icons li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+#logo .icons a {
+    font-size: 1.8em;
+}
+#logo .icons a {
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+}
+
+#logo .icons a:hover {
+    transform: scale(1.2);
+}
