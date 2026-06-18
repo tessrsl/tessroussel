@@ -2440,7 +2440,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #065f46 url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2649,4 +2649,105 @@ input, select, textarea {
 
 #logo .icons a:hover {
 	transform: scale(1.2);
+}
+
+/* ===== MENU MODERNE ===== */
+
+#nav ul li a {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+#nav ul li a:hover {
+    background: rgba(255,255,255,0.08);
+    color: #49bf9d !important;
+    padding-left: 15px;
+}
+
+#nav ul li a:hover .icon {
+    color: #49bf9d;
+}
+
+/* Section active */
+
+#nav ul li a.active {
+    background: rgba(73,191,157,0.15);
+    color: #49bf9d !important;
+}
+
+/* Icônes réseaux sociaux */
+
+.icons a {
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    color: #49bf9d !important;
+    transform: translateY(-3px);
+}
+
+/* Photo profil */
+
+#logo .image.avatar48 img {
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.15);
+    transition: all 0.3s ease;
+}
+
+/* ===== THEME VERT ===== */
+
+/* Menu */
+
+#nav ul li a:hover {
+	background: rgba(255,255,255,0.08);
+	color: #6ee7b7 !important;
+}
+
+#nav ul li a.active {
+	background: rgba(110,231,183,0.15);
+	color: #6ee7b7 !important;
+}
+
+/* Réseaux */
+
+.icons a:hover {
+	color: #6ee7b7 !important;
+	transform: translateY(-3px);
+}
+
+/* Skills */
+
+#skills h3 {
+	background: #065f46;
+	color: white;
+	padding: 12px;
+	border-radius: 8px;
+	margin-top: 25px;
+	transition: all 0.3s ease;
+}
+
+#skills h3:hover {
+	background: #49bf9d;
+	transform: translateY(-3px);
+}
+
+/* Boutons */
+
+.button {
+	background: #49bf9d !important;
+}
+
+.button:hover {
+	background: #6ee7b7 !important;
+}
+
+/* Photo profil */
+
+#logo .image.avatar48 img:hover {
+	border-color: #49bf9d;
+}
+
+#logo .image.avatar48 img:hover {
+    border-color: #49bf9d;
+    transform: scale(1.05);
 }
