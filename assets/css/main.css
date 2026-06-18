@@ -2694,71 +2694,55 @@ input, select, textarea {
     transition: all 0.3s ease;
 }
 
-/* ===== THEME VERT FORET ===== */
+/* ===== THEME SLATE & SAGE ===== */
 
-/* Menu de gauche */
-
+/* Menu gauche */
 #header {
-background: #0b3d2e;
+    background: #1f2937;
 }
 
 /* Intro */
-
 #top {
-background: linear-gradient(
-135deg,
-#041f17,
-#0b3d2e,
-#14532d
-);
+    background: linear-gradient(
+        135deg,
+        #1f2937,
+        #374151
+    );
 }
 
-/* Couleur principale */
-
-#nav ul li a {
-color: #34d399 !important;
-}
-
+/* Menu actif */
 #nav ul li a.active {
-background: rgba(52,211,153,0.15);
-color: #34d399 !important;
+    background: rgba(156, 163, 175, 0.15);
+    color: #d1d5db !important;
+}
+
+/* Survol menu */
+#nav ul li a:hover {
+    color: #a7f3d0 !important;
 }
 
 /* Réseaux sociaux */
-
-.icons a {
-color: #34d399 !important;
-transform: translateY(-3px);
+.icons a:hover {
+    color: #a7f3d0 !important;
 }
 
 /* Skills */
-
 #skills h3 {
-background: #14532d;
-color: white;
-padding: 12px;
-border-radius: 8px;
-margin-top: 25px;
-transition: all 0.3s ease;
+    background: #374151;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
 }
 
-#skills h3 {
-background: #34d399;
-transform: translateY(-3px);
+#skills h3:hover {
+    background: #4b5563;
 }
 
 /* Boutons */
-
 .button {
-background: #14532d !important;
+    background: #374151 !important;
 }
 
-.button {
-background: #34d399 !important;
-}
-
-/* Photo profil */
-
-#logo .image.avatar48 img {
-border-color: #34d399;
+.button:hover {
+    background: #4b5563 !important;
 }
